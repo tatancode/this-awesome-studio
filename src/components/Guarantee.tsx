@@ -16,8 +16,8 @@ const Guarantee = () => {
 						Our Guarantee
 					</h2>
 					<p className="mt-4 text-lg text-gray-500">
-						We're so confident in our services that we offer a 30-day money-back
-						guarantee.
+						We&apos;re so confident in our services that we offer a 30-day
+						money-back guarantee.
 					</p>
 				</motion.div>
 				<div className="mt-16">
@@ -31,9 +31,9 @@ const Guarantee = () => {
 								className="mx-auto lg:mx-0"
 							/>
 							<blockquote className="mt-6 text-gray-500 italic">
-								"We stand behind our work. If you're not completely satisfied
-								with our services within the first 30 days, we'll refund your
-								money. No questions asked."
+								&quot;We stand behind our work. If you&apos;re not completely
+								satisfied with our services within the first 30 days, we&apos;ll
+								refund your money. No questions asked.&quot;
 							</blockquote>
 							<p className="mt-4 font-medium text-gray-900">
 								- John Doe, Founder
