@@ -16,7 +16,7 @@ const SocialProof = () => {
 				<div className="lg:grid lg:grid-cols-2 lg:gap-8">
 					<div>
 						<h2 className="max-w-md mx-auto text-3xl font-extrabold text-gray-900 text-center lg:max-w-xl lg:text-left">
-							Trusted by leading companies
+							Powered by Trusted Technology
 						</h2>
 					</div>
 					<div className="flow-root self-center mt-8 lg:mt-0">
@@ -42,7 +42,7 @@ const SocialProof = () => {
 				</div>
 				<div className="mt-16 border-t border-gray-200 pt-8">
 					<p className="text-base font-semibold text-gray-400 text-center">
-						Best of Ontario Award Winner 2023
+						Best of Nashville Award Winner 2024
 					</p>
 				</div>
 			</div>

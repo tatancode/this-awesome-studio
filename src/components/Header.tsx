@@ -13,12 +13,29 @@ const Header = () => {
 				<div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
 					<div className="flex justify-start lg:w-0 lg:flex-1">
 						<Link href="/">
-							<span className="sr-only">Your Company</span>
-							<img
-								className="h-8 w-auto sm:h-10"
-								src="/logo.png"
-								alt="Your Company"
-							/>
+							<svg
+								width="270"
+								height="60"
+								xmlns="http://www.w3.org/2000/svg">
+								<text
+									x="10"
+									y="40"
+									font-family="Inter"
+									font-size="24"
+									fill="#4F46E5"
+									font-weight="bold">
+									This Awesome Studio
+								</text>
+								<line
+									x1="10"
+									y1="45"
+									x2="260"
+									y2="45"
+									stroke="#FDCB6E"
+									stroke-width="4"
+									stroke-linecap="round"
+								/>
+							</svg>
 						</Link>
 					</div>
 					<div className="-mr-2 -my-2 md:hidden">
@@ -70,13 +87,29 @@ const Header = () => {
 					<div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
 						<div className="pt-5 pb-6 px-5">
 							<div className="flex items-center justify-between">
-								<div>
-									<img
-										className="h-8 w-auto"
-										src="/logo.png"
-										alt="Your Company"
+								<svg
+									width="270"
+									height="60"
+									xmlns="http://www.w3.org/2000/svg">
+									<text
+										x="10"
+										y="40"
+										font-family="Inter"
+										font-size="24"
+										fill="#4F46E5"
+										font-weight="bold">
+										This Awesome Studio
+									</text>
+									<line
+										x1="10"
+										y1="45"
+										x2="260"
+										y2="45"
+										stroke="#FDCB6E"
+										stroke-width="4"
+										stroke-linecap="round"
 									/>
-								</div>
+								</svg>
 								<div className="-mr-2">
 									<button
 										type="button"
