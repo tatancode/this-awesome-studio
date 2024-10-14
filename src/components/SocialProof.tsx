@@ -2,11 +2,14 @@
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import nextJsImage from '../../assets/nextjs-logo.svg';
+import googleImage from '../../assets/google_gray_2.webp';
+import shopifyLogo from '../../assets/shopify_partners_logo.webp';
 
 const partners = [
-	{ name: 'Shopify Partners', logo: '/shopify-partners-logo.png' },
-	{ name: 'WooCommerce', logo: '/woocommerce-logo.png' },
-	{ name: 'Google Search Console', logo: '/google-search-console-logo.png' },
+	{ name: 'Shopify Partners', logo: shopifyLogo },
+	{ name: 'NextJS', logo: nextJsImage },
+	{ name: 'Google Search Console', logo: googleImage },
 ];
 
 const SocialProof = () => {

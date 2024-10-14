@@ -67,7 +67,7 @@ const Header = () => {
 							Branding
 						</Link>
 					</nav>
-					<div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+					<div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0 text-gray-500 hover:text-gray-900">
 						<Link
 							href="/pricing"
 							className="btn btn-secondary mr-4">
