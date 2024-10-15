@@ -10,12 +10,14 @@ const Header = () => {
 	return (
 		<header className="bg-white shadow-md">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				<div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
-					<div className="flex justify-start lg:w-0 lg:flex-1">
-						<Link href="/">
+				<div className="flex justify-between items-center py-4">
+					<div className="flex items-center">
+						<Link
+							href="/"
+							className="flex-shrink-0">
 							<svg
 								width="270"
-								height="60"
+								height="50"
 								xmlns="http://www.w3.org/2000/svg">
 								<text
 									x="10"
@@ -38,7 +40,41 @@ const Header = () => {
 							</svg>
 						</Link>
 					</div>
-					<div className="-mr-2 -my-2 md:hidden">
+					<nav className="hidden md:flex space-x-8">
+						<Link
+							href="/about"
+							className="text-gray-500 hover:text-gray-900">
+							About
+						</Link>
+						<Link
+							href="/services"
+							className="text-gray-500 hover:text-gray-900">
+							Services
+						</Link>
+						<Link
+							href="/pricing"
+							className="text-gray-500 hover:text-gray-900">
+							Pricing
+						</Link>
+						<Link
+							href="/results"
+							className="text-gray-500 hover:text-gray-900">
+							Results
+						</Link>
+						<Link
+							href="/blog"
+							className="text-gray-500 hover:text-gray-900">
+							Blog
+						</Link>
+					</nav>
+					<div className="hidden md:flex">
+						<Link
+							href="/contact"
+							className="btn btn-primary text-white bg-indigo-600 hover:bg-indigo-700 rounded-md md:py-2 md:text-base md:px-3">
+							Contact
+						</Link>
+					</div>
+					<div className="md:hidden">
 						<button
 							type="button"
 							className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -49,35 +85,6 @@ const Header = () => {
 								aria-hidden="true"
 							/>
 						</button>
-					</div>
-					<nav className="hidden md:flex space-x-10">
-						<Link
-							href="/services/web-design"
-							className="text-base font-medium text-gray-500 hover:text-gray-900">
-							Web Design
-						</Link>
-						<Link
-							href="/services/seo"
-							className="text-base font-medium text-gray-500 hover:text-gray-900">
-							SEO
-						</Link>
-						<Link
-							href="/services/branding"
-							className="text-base font-medium text-gray-500 hover:text-gray-900">
-							Branding
-						</Link>
-					</nav>
-					<div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0 text-gray-500 hover:text-gray-900">
-						<Link
-							href="/pricing"
-							className="btn btn-secondary mr-4">
-							Pricing
-						</Link>
-						<Link
-							href="/contact"
-							className="btn btn-primary">
-							Contact
-						</Link>
 					</div>
 				</div>
 			</div>
